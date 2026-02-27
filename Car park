@@ -1,0 +1,32 @@
+this is the word code for the car park 
+START
+SET capacity = 200
+SET currentCount = 0
+
+LOOP
+  IF entrySensor = TRUE THEN
+      READ vehicleID
+      IF vehicleID NOT IN registeredList THEN
+          DISPLAY "ACCESS DENIED"
+      ELSE
+          IF currentCount = capacity THEN
+              DISPLAY "PARKING FULL"
+              SET alert = ON
+          ELSE
+              OPEN barrier
+              WAIT 5 seconds
+              CLOSE barrier
+              currentCount = currentCount + 1
+          ENDIF
+      ENDIF
+  ENDIF
+
+  IF exitSensor = TRUE THEN
+      currentCount = currentCount - 1
+  ENDIF
+
+  available = capacity - currentCount
+  DISPLAY available
+ENDLOOP
+END
+
