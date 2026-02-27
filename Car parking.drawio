@@ -1,0 +1,61 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.5.6">
+  <diagram name="Page-1" id="tC-9VgJgteQing7KmDNo">
+    <mxGraphModel dx="946" dy="597" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4sWOXOeQu5IR5qVOIKkE-3" edge="1" parent="1" source="4sWOXOeQu5IR5qVOIKkE-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="4sWOXOeQu5IR5qVOIKkE-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4sWOXOeQu5IR5qVOIKkE-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="start&amp;nbsp;" vertex="1">
+          <mxGeometry height="80" width="120" x="350" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4sWOXOeQu5IR5qVOIKkE-9" edge="1" parent="1" source="4sWOXOeQu5IR5qVOIKkE-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="4sWOXOeQu5IR5qVOIKkE-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4sWOXOeQu5IR5qVOIKkE-11" connectable="0" parent="4sWOXOeQu5IR5qVOIKkE-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="yes" vertex="1">
+          <mxGeometry relative="1" x="-0.1636" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4sWOXOeQu5IR5qVOIKkE-20" edge="1" parent="1" source="4sWOXOeQu5IR5qVOIKkE-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="4sWOXOeQu5IR5qVOIKkE-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4sWOXOeQu5IR5qVOIKkE-23" connectable="0" parent="4sWOXOeQu5IR5qVOIKkE-20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="no" vertex="1">
+          <mxGeometry relative="1" x="-0.175" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4sWOXOeQu5IR5qVOIKkE-2" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Is the car in the system?&amp;nbsp;" vertex="1">
+          <mxGeometry height="120" width="160" x="330" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="4sWOXOeQu5IR5qVOIKkE-10" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="is there any parking available&amp;nbsp;" vertex="1">
+          <mxGeometry height="80" width="170" x="325" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="4sWOXOeQu5IR5qVOIKkE-15" edge="1" parent="1" source="4sWOXOeQu5IR5qVOIKkE-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="4sWOXOeQu5IR5qVOIKkE-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4sWOXOeQu5IR5qVOIKkE-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="open up&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="350" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="4sWOXOeQu5IR5qVOIKkE-13" edge="1" parent="1" source="4sWOXOeQu5IR5qVOIKkE-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.517;entryY=0.125;entryDx=0;entryDy=0;entryPerimeter=0;" target="4sWOXOeQu5IR5qVOIKkE-12" value="yes">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4sWOXOeQu5IR5qVOIKkE-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Tracking number of cars" vertex="1">
+          <mxGeometry height="60" width="120" x="350" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="4sWOXOeQu5IR5qVOIKkE-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Let the car know there is no parking spots" vertex="1">
+          <mxGeometry height="60" width="120" x="630" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="4sWOXOeQu5IR5qVOIKkE-18" edge="1" parent="1" source="4sWOXOeQu5IR5qVOIKkE-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.567;entryY=0.025;entryDx=0;entryDy=0;entryPerimeter=0;" target="4sWOXOeQu5IR5qVOIKkE-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4sWOXOeQu5IR5qVOIKkE-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Do not open boom gate&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="620" y="340" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
